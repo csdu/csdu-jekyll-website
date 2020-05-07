@@ -1,0 +1,9 @@
+- name: About
+  link:
+- name: Events
+  link:
+- name: Blog
+  link:
+- name: codingClub
+  link:
+  classes: 'font-mono'

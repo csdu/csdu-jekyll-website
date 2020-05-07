@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 
 <head>
     <meta charset="UTF-8">
@@ -8,8 +8,16 @@
     <link rel="stylesheet" href="{{ site.url }}/css/site.css">
 </head>
 
-<body>
-    {{ content }}
+<body class="bg-gray-200 bg-wiggle-pattern text-gray-900 min-h-full relative">
+    {% include header.html %}
+
+    <main class="container mx-auto px-4 pb-10">
+        {{ content }}
+    </main>
+
+    <footer class="text-gray-700 pb-1 w-full text-xs text-center absolute bottom-0">
+        &copy; {{ site.time | date: '%Y'}}. Delhi University Computer Science Society.
+    </footer>
 </body>
 
 </html>
