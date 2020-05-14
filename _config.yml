@@ -1,6 +1,6 @@
 source: 'src'
 title: CSDU Unofficial
-url: 'https://ducs.in'
+url: 'https://ducs.in/csdu-jekyll-website'
 
 plugins:
     - jekyll-postcss
