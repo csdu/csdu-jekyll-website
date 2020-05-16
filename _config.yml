@@ -4,7 +4,6 @@ url: 'https://ducs.in/csdu-jekyll-website'
 
 plugins:
     - jekyll-postcss
-    - jekyll-purgecss
 
 exclude:
     - .sass-cache/
